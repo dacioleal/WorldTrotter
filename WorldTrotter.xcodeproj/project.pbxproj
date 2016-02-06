@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3957FB41C6616B600C4EEC4 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957FB31C6616B600C4EEC4 /* ConversionViewController.swift */; };
 		F3C17D251C65DE4300B0EBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D241C65DE4300B0EBF0 /* AppDelegate.swift */; };
-		F3C17D271C65DE4300B0EBF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D261C65DE4300B0EBF0 /* ViewController.swift */; };
 		F3C17D2A1C65DE4300B0EBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C17D281C65DE4300B0EBF0 /* Main.storyboard */; };
 		F3C17D2C1C65DE4300B0EBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C17D2B1C65DE4300B0EBF0 /* Assets.xcassets */; };
 		F3C17D2F1C65DE4300B0EBF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C17D2D1C65DE4300B0EBF0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3957FB31C6616B600C4EEC4 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		F3C17D211C65DE4300B0EBF0 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C17D241C65DE4300B0EBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3C17D261C65DE4300B0EBF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3C17D291C65DE4300B0EBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3C17D2B1C65DE4300B0EBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C17D2E1C65DE4300B0EBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				F3C17D241C65DE4300B0EBF0 /* AppDelegate.swift */,
-				F3C17D261C65DE4300B0EBF0 /* ViewController.swift */,
+				F3957FB31C6616B600C4EEC4 /* ConversionViewController.swift */,
 				F3C17D281C65DE4300B0EBF0 /* Main.storyboard */,
 				F3C17D2B1C65DE4300B0EBF0 /* Assets.xcassets */,
 				F3C17D2D1C65DE4300B0EBF0 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C17D271C65DE4300B0EBF0 /* ViewController.swift in Sources */,
+				F3957FB41C6616B600C4EEC4 /* ConversionViewController.swift in Sources */,
 				F3C17D251C65DE4300B0EBF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +251,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dacioleal.WorldTrotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -262,6 +263,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dacioleal.WorldTrotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -284,6 +286,7 @@
 				F3C17D351C65DE4300B0EBF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
