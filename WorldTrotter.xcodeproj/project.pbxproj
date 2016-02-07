@@ -14,6 +14,7 @@
 		F3C17D2A1C65DE4300B0EBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C17D281C65DE4300B0EBF0 /* Main.storyboard */; };
 		F3C17D2C1C65DE4300B0EBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C17D2B1C65DE4300B0EBF0 /* Assets.xcassets */; };
 		F3C17D2F1C65DE4300B0EBF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C17D2D1C65DE4300B0EBF0 /* LaunchScreen.storyboard */; };
+		F3C830781C67CD6F004479A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3C8307A1C67CD6F004479A2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,9 @@
 		F3C17D301C65DE4300B0EBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C830741C67C6FF004479A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		F3C830751C67C79B004479A2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		F3C830791C67CD6F004479A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3C8307B1C67CD76004479A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3C8307C1C67CD77004479A2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				F3C17D2B1C65DE4300B0EBF0 /* Assets.xcassets */,
 				F3C17D2D1C65DE4300B0EBF0 /* LaunchScreen.storyboard */,
 				F3C17D301C65DE4300B0EBF0 /* Info.plist */,
+				F3C8307A1C67CD6F004479A2 /* Localizable.strings */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = F3C17D181C65DE4300B0EBF0;
 			productRefGroup = F3C17D221C65DE4300B0EBF0 /* Products */;
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C17D2F1C65DE4300B0EBF0 /* LaunchScreen.storyboard in Resources */,
+				F3C830781C67CD6F004479A2 /* Localizable.strings in Resources */,
 				F3C17D2C1C65DE4300B0EBF0 /* Assets.xcassets in Resources */,
 				F3C17D2A1C65DE4300B0EBF0 /* Main.storyboard in Resources */,
 			);
@@ -169,6 +176,16 @@
 				F3C17D2E1C65DE4300B0EBF0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F3C8307A1C67CD6F004479A2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C830791C67CD6F004479A2 /* Base */,
+				F3C8307B1C67CD76004479A2 /* en */,
+				F3C8307C1C67CD77004479A2 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
