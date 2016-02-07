@@ -26,6 +26,8 @@
 		F3C17D2B1C65DE4300B0EBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C17D2E1C65DE4300B0EBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3C17D301C65DE4300B0EBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C830741C67C6FF004479A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F3C830751C67C79B004479A2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				F3C17D291C65DE4300B0EBF0 /* Base */,
+				F3C830741C67C6FF004479A2 /* en */,
+				F3C830751C67C79B004479A2 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

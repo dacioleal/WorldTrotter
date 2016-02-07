@@ -18,7 +18,11 @@ class MapViewController: UIViewController {
         mapView = MKMapView()
         view = mapView
         
-        let segmentedControl = UISegmentedControl(items: ["Standard", "Hybrid", "Satellite"])
+        let standardString = NSLocalizedString("Standard", comment: "Standard map view")
+        let hybridString = NSLocalizedString("Hybrid", comment: "Hybrid map view")
+        let satelliteString = NSLocalizedString("Satellite", comment: "Satellite map view")
+        
+        let segmentedControl = UISegmentedControl(items: [standardString, hybridString, satelliteString])
         segmentedControl.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
         segmentedControl.selectedSegmentIndex = 0
         segmentedControl.addTarget(self, action: "mapTypeChanged:", forControlEvents: UIControlEvents.ValueChanged)
@@ -41,7 +45,6 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("MapViewController loaded its view.")
        
     }
     
